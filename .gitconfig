@@ -1,0 +1,15 @@
+[user]
+	name = Chae Jubb
+	email = cjubb39@gmail.com
+[merge]
+	conflictStyle = diff3
+[color]
+	ui = auto
+[alias]
+	view = log --graph --oneline --decorate --all HEAD
+[help]
+	autocorrect = -1
+[pull]
+	rebase = true
+[grep]
+	lineNumber = true
