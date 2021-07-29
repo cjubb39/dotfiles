@@ -29,6 +29,10 @@ autocmd FileType txt setlocal spell spelllang=en_us
 autocmd FileType tex filetype indent off
 autocmd FileType sv setlocal indent off
 
+"2 space tabs for ruby
+autocmd FileType ruby setlocal shiftwidth=2
+autocmd FileType ruby setlocal tabstop=2
+
 "backups in special directory
 set backupdir^=~/.vim_backup
 
