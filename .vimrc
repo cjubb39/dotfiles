@@ -8,6 +8,8 @@ set tabstop=4
 set expandtab
 filetype indent on
 
+set hlsearch
+
 set ruler
 set wrap
 "set textwidth=120
