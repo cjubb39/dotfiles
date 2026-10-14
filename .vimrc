@@ -35,6 +35,10 @@ autocmd FileType sv setlocal indent off
 autocmd FileType ruby setlocal shiftwidth=2
 autocmd FileType ruby setlocal tabstop=2
 
+"typescrip regex engine
+set regexengine=0
+"autocmd FileType tsx setlocal regexpengine=2
+
 "backups in special directory
 set backupdir^=~/.vim_backup
 
@@ -65,3 +69,5 @@ set smartcase
 "au BufRead * normal zR
 
 set nofoldenable
+
+set noequalalways

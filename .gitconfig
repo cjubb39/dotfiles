@@ -7,6 +7,8 @@
 	ui = auto
 [alias]
 	view = log --graph --oneline --decorate --all HEAD
+[alias]
+	viewreflog = log --graph --oneline --decorate --reflog
 [help]
 	autocorrect = -1
 [pull]
@@ -18,3 +20,7 @@
 # http://stackoverflow.com/questions/18257622/why-is-git-core-preloadindex-default-value-false
 [core]
 	preloadindex = true
+#[gpg]
+#	format = ssh
+#[commit]
+#	gpgsign = true
